@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468B127523F98A5500C18F49 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B127423F98A5500C18F49 /* MapView.swift */; };
 		469A7EED23F976BA00720BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A7EEC23F976BA00720BFA /* AppDelegate.swift */; };
 		469A7EEF23F976BA00720BFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A7EEE23F976BA00720BFA /* SceneDelegate.swift */; };
 		469A7EF123F976BA00720BFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A7EF023F976BA00720BFA /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		468B127423F98A5500C18F49 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		469A7EE923F976BA00720BFA /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		469A7EEC23F976BA00720BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		469A7EEE23F976BA00720BFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		469A7EEB23F976BA00720BFA /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				468B127423F98A5500C18F49 /* MapView.swift */,
 				469A7EEC23F976BA00720BFA /* AppDelegate.swift */,
 				469A7EEE23F976BA00720BFA /* SceneDelegate.swift */,
 				469A7EF023F976BA00720BFA /* ContentView.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				469A7EED23F976BA00720BFA /* AppDelegate.swift in Sources */,
+				468B127523F98A5500C18F49 /* MapView.swift in Sources */,
 				469A7EEF23F976BA00720BFA /* SceneDelegate.swift in Sources */,
 				469A7EF123F976BA00720BFA /* ContentView.swift in Sources */,
 			);
