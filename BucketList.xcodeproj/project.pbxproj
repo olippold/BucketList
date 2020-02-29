@@ -19,6 +19,7 @@
 		46B86CDD2402C514001784BA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B86CDC2402C514001784BA /* Result.swift */; };
 		46BF5F5F24029F20009122B5 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF5F5E24029F20009122B5 /* MKPointAnnotation-ObservableObject.swift */; };
 		46BF5F6124029F81009122B5 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF5F6024029F81009122B5 /* EditView.swift */; };
+		46E43601240A948400FE322A /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E43600240A948400FE322A /* CustomMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		46B86CDC2402C514001784BA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		46BF5F5E24029F20009122B5 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		46BF5F6024029F81009122B5 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		46E43600240A948400FE322A /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				469A7EEC23F976BA00720BFA /* AppDelegate.swift */,
 				469A7EEE23F976BA00720BFA /* SceneDelegate.swift */,
 				469A7EF023F976BA00720BFA /* ContentView.swift */,
+				46E43600240A948400FE322A /* CustomMapView.swift */,
 				46B86CDC2402C514001784BA /* Result.swift */,
 				46BF5F5E24029F20009122B5 /* MKPointAnnotation-ObservableObject.swift */,
 				46BF5F6024029F81009122B5 /* EditView.swift */,
@@ -168,6 +171,7 @@
 				4685E18F24029AD9006A86FA /* MKPointAnnotation-Codable.swift in Sources */,
 				469A7EED23F976BA00720BFA /* AppDelegate.swift in Sources */,
 				46BF5F6124029F81009122B5 /* EditView.swift in Sources */,
+				46E43601240A948400FE322A /* CustomMapView.swift in Sources */,
 				46BF5F5F24029F20009122B5 /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				468B127523F98A5500C18F49 /* MapView.swift in Sources */,
 				469A7EEF23F976BA00720BFA /* SceneDelegate.swift in Sources */,

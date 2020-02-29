@@ -21,36 +21,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             if isUnlocked {
-                MapView(centerCoordinate: $centerCoordinate, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, annotations: locations)
-                    .edgesIgnoringSafeArea(.all)
-                
-                Circle()
-                    .fill(Color.blue)
-                    .opacity(0.3)
-                    .frame(width: 32, height: 32)
-                VStack {
-                    Spacer()
-                    HStack {
-                        Spacer()
-                        Button(action: {
-                            let newLocation = CodableMKPointAnnotation()
-                            newLocation.title = "Example Location"
-                            newLocation.coordinate = self.centerCoordinate
-                            self.locations.append(newLocation)
-                            self.selectedPlace = newLocation
-                            self.showingEditScreen = true
-                        }) {
-                            Image(systemName: "plus")
-                        }
-                        .padding()
-                        .background(Color.black.opacity(0.75))
-                        .foregroundColor(.white)
-                        .font(.title)
-                        .clipShape(Circle())
-                        .padding(.trailing)
-                    }
-                }
-                
+                CustomMapView(centerCoordinate: $centerCoordinate, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, locations: $locations, showingEditScreen: $showingEditScreen)
             } else {
                 Button("Unlock Places") {
                     self.authenticate()
@@ -120,6 +91,7 @@ struct ContentView: View {
                         self.isUnlocked = true
                     } else {
                         // there was a problem
+                        print("It failed!")
                     }
                 }
             }
